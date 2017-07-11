@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: First Blog Post
 description: "3..2..1.. Launched"
 headline: "Summers'17"
