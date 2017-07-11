@@ -74,11 +74,19 @@ analytics:
   google:
     tracking_id          :
 
-
+links:
+  - title: Home
+    url: /
+    external: false
+    icon: home
+  - title: About
+    url: /
+  - title: Contact
+    url: /
 # Site Author
 author:
   name             : Soumyadeep Thakur
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /images/profile_pic.jpg
   bio              : Soumyadeep Thakur is a Third Year undergraduate student in the Department of Computer Science and Engineering, Jadavpur University.
   location         : India
   email            : soumyadeep.thakur@gmail.com
@@ -100,7 +108,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : Soumyadeep97
   vine             :
   weibo            :
   xing             :
