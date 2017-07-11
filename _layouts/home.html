@@ -4,8 +4,17 @@ layout: archive
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
-<nav id="navigation">
-    <h3>MENU</h3>
+    
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}
+
+
+<nav id="navigation" class="pagination">
+
+<h3>MENU</h3>
     <hr>
 		{% for link in site.links %}
             <li>{% if link.external %}
@@ -16,8 +25,3 @@ layout: archive
 	{% endfor %}            
            <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
 </nav>
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% include paginator.html %}
