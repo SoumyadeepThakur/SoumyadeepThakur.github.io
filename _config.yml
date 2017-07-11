@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Welcome to Thakur Home"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Soumyadeep Thakur"
+description              : "Under Construction. Sorry for the inconvenience."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -77,19 +77,19 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : Soumyadeep Thakur
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  bio              : Soumyadeep Thakur is a Third Year undergraduate student in the Department of Computer Science and Engineering, Jadavpur University.
+  location         : India
+  email            : soumyadeep.thakur@gmail.com
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
-  foursquare       :
-  github           :
+  foursquare       : 
+  github           : SoumyadeepThakur
   google_plus      :
   keybase          :
   instagram        :
