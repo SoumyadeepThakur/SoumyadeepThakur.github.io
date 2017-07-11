@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First Blog Post
-description: "The game is afoot, Watson!"
+description: "3..2..1.. Launched"
 headline: "Summers'17"
 categories: personal
 tags: 
